@@ -1,0 +1,25 @@
+body {
+	margin: 40px;
+	font-family: sans-serif;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.title {
+	border: 1px solid #000000;
+}
+
+th {
+	border: 1px solid #000000;
+}
+
+.body-1 {
+	color: red;
+}
+
+td {
+	border: 1px solid #000000;
+}
