@@ -1,0 +1,13 @@
+@media (width > 768px) {
+	.burger {
+		display: none;
+	}
+}
+
+@media (width <= 768px) {
+	.burger {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

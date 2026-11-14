@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="page" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link
+			rel="shortcut icon"
+			href="./icons/electronics-icon.svg"
+			type="image/x-icon"
+		/>
+		<title>California</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container header__container">
+				<a class="logo header__logo" href="#"
+					><img
+						class="logo__img"
+						src="./icons/california-icon.svg"
+						width="170"
+						height="21"
+						alt="Логотип California"
+					/>
+				</a>
+				<nav class="menu header__menu" aria-label="Главное меню">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="#все продукты">all products</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link arrow" href="#решения">Solutions</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#ещё">About</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#помощь">support</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__controls header__actions">
+					<button class="header__actions-button-1 position">
+						<svg width="24" height="24">
+							<use
+								class="header__actions-icon"
+								href="./icons/sprite.svg#search"
+							></use>
+						</svg>
+					</button>
+					<button class="header__actions-button-2 position">
+						<svg width="40" height="24">
+							<use
+								class="header__actions-icon"
+								href="./icons/sprite.svg#cart"
+							></use>
+						</svg>
+					</button>
+					<button class="header__burger burger">
+						<svg width="24" height="24">
+							<use
+								class="burger__icon-menu"
+								href="./icons/sprite.svg#menu-burger"
+							></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="hero">
+				<div class="container hero__container">
+					<button class="arrow-left" id="arrow-left-icon"></button>
+					<header class="hero__header">
+						<div class="hero__container-text">
+							<h1 class="hero__title">The new phones are here take a look.</h1>
+							<p class="text hero__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.
+							</p>
+							<button class="hero__button">Explore</button>
+						</div>
+
+						<img
+							class="hero__img"
+							src="./images/three-phones.png"
+							alt="Три телефона"
+						/>
+					</header>
+
+					<button class="arrow-right" id="arrow-right-icon"></button>
+					<footer class="hero__footer">
+						<div class="slider-indicator">
+							<span class="slider-indicator__solid"></span>
+							<span class="slider-indicator__solid"></span>
+							<span class="slider-indicator__solid"></span>
+						</div>
+					</footer>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

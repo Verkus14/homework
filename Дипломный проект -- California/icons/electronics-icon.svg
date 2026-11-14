@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background Elements -->
+  <path d="M462 64h-50v180h100V114c0-27.6-22.4-50-50-50z" fill="#E8F5E9" opacity="0.6"/>
+  <path d="M50 448h114c27.6 0 50-22.4 50-50V298H0v100c0 27.6 22.4 50 50 50z" fill="#E8F5E9" opacity="0.6"/>
+  <path d="M48 64c-26.5 0-48 21.5-48 48v78h132V64H48z" fill="#E8F5E9" opacity="0.6"/>
+
+  <!-- Plant/Leaf Detail Back Left -->
+  <path d="M80 60c-5 15-20 25-20 25s15-5 25-20c5-15 0-25 0-25s-10 5-5 20z" fill="#A5D6A7" opacity="0.5"/>
+  <path d="M95 40c-3 12-15 20-15 20s12-4 20-16c3-12 0-20 0-20s-8 4-5 16z" fill="#A5D6A7" opacity="0.5"/>
+  <path d="M65 75c-3 12-15 20-15 20s12-4 20-16c3-12 0-20 0-20s-8 4-5 16z" fill="#A5D6A7" opacity="0.5"/>
+  <line x1="80" y1="90" x2="80" y2="40" stroke="#A5D6A7" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Main Smartphone (Background Device) -->
+  <rect x="146" y="20" width="220" height="420" rx="32" fill="#37474F"/>
+  <rect x="160" y="44" width="192" height="372" rx="18" fill="#FFFFFF"/>
+  <!-- Screen Decorative Sparkles/Crosses -->
+  <path d="M320 80h10m-5-5v10" stroke="#CFD8DC" stroke-width="3" stroke-linecap="round"/>
+  <path d="M335 95h6m-3-3v6" stroke="#CFD8DC" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Headphones (On Smartphone Screen) -->
+  <path d="M196 230c0-35.3 26.9-64 60-64s60 28.7 60 64" fill="none" stroke="#B39DDB" stroke-width="16" stroke-linecap="round"/>
+  <rect x="180" y="220" width="28" height="48" rx="8" fill="#7E57C2"/>
+  <rect x="304" y="220" width="28" height="48" rx="8" fill="#7E57C2"/>
+  <rect x="192" y="234" width="6" height="20" rx="2" fill="#B39DDB"/>
+  <rect x="314" y="234" width="6" height="20" rx="2" fill="#B39DDB"/>
+
+  <!-- Laptop (Foreground Middle-Right) -->
+  <!-- Screen/Body Back -->
+  <rect x="220" y="220" width="230" height="150" rx="16" fill="#B39DDB"/>
+  <rect x="234" y="234" width="202" height="122" rx="8" fill="#CE93D8" opacity="0.4"/>
+  <!-- Keyboard Base -->
+  <path d="M200 370h270l15 65H185z" fill="#7E57C2"/>
+  <rect x="240" y="412" width="160" height="8" rx="4" fill="#FFFFFF"/>
+
+  <!-- Smartwatch (Foreground Left) -->
+  <!-- Strap -->
+  <path d="M40 180h60v280H40z" fill="#EC407A"/>
+  <path d="M40 180l30-40 30 40zM40 460l30 40 30-40z" fill="#D81B60"/>
+  <!-- Watch Case -->
+  <rect x="10" y="230" width="120" height="120" rx="28" fill="#F8BBD0"/>
+  <rect x="20" y="240" width="100" height="100" rx="20" fill="#F48FB1"/>
+  <!-- Play Button -->
+  <circle cx="70" cy="290" r="30" fill="#FFFFFF"/>
+  <path d="M62 275l22 15-22 15z" fill="#D81B60"/>
+
+  <!-- Price Tag (Foreground Right) -->
+  <g transform="translate(390, 310) rotate(10)">
+    <path d="M0 30 L40 0 L90 0 L90 120 L0 120 Z" fill="#FFCA28"/>
+    <circle cx="45" cy="35" r="10" fill="#FFFFFF"/>
+    <line x1="45" y1="35" x2="45" y2="-15" stroke="#BCAAA4" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
