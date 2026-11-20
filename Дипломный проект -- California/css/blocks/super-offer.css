@@ -1,0 +1,130 @@
+.super-offer {
+	margin: 0 auto;
+	padding-bottom: 56px;
+	margin-top: 28px;
+}
+
+.super-offer__text {
+	max-width: 628px;
+	margin: 9px auto 0;
+}
+
+.super-offer__container {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-rows: auto auto;
+	gap: 16px;
+	margin-top: 56px;
+}
+
+.super-offer__card {
+	background-color: #fff;
+	box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.super-offer__info {
+	position: relative;
+	right: 20px;
+}
+
+.super-offer__card--laptop {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+}
+
+.super-offer__name--laptop {
+	max-width: 192px;
+	margin-left: auto;
+}
+
+.super-offer__card--witch {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	flex-direction: row;
+	align-items: center;
+}
+
+.super-offer__card--witch .super-offer__img {
+	width: 55%;
+	max-width: 381px;
+	height: auto;
+	object-fit: contain;
+}
+
+.super-offer__card--phones {
+	grid-column: 2 / 3;
+	grid-row: 1 / 3;
+	justify-content: center;
+	text-align: center;
+}
+
+.super-offer__mini-name--phones,
+.super-offer__name--phones {
+	transform: translate(20px, 10px);
+	text-align: center;
+}
+
+.super-offer__card--tablet {
+	grid-column: 3 / 4;
+	grid-row: 1 / 3;
+	flex-direction: column-reverse;
+	justify-content: center;
+	text-align: center;
+}
+
+.super-offer__mini-name--tablet,
+.super-offer__name--tablet {
+	transform: translate(20px, -20px);
+	text-align: center;
+}
+
+@media (width <= 992px) {
+	.super-offer-container {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.super-offer__card--laptop,
+	.super-offer__card--witch {
+		grid-column: 1 / -1;
+	}
+
+	.super-offer__card--phones {
+		grid-column: 1 / 2;
+		grid-row: 3 / 4;
+		align-items: center;
+	}
+
+	.super-offer__card--tablet {
+		grid-column: 2 / 4;
+		grid-row: 3 / 4;
+		align-items: center;
+	}
+
+	.super-offer__card--phones,
+	.super-offer__card--tablet {
+		justify-content: space-between;
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+}
+
+@media (width <= 576px) {
+	.super-offer__container {
+		grid-template-columns: 1fr;
+	}
+
+	.super-offer__card--phones,
+	.super-offer__card--tablet {
+		grid-column: 1 / -1;
+		grid-row: auto;
+		align-items: center;
+	}
+
+	.super-offer__card {
+		padding: 20px;
+	}
+}

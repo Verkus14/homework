@@ -1,0 +1,204 @@
+<!doctype html>
+<html class="page" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link
+			rel="shortcut icon"
+			href="./icons/electronics-icon.svg"
+			type="image/x-icon"
+		/>
+		<script defer src="./js/index.js" type="module"></script>
+		<title>California</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container header__container">
+				<a class="logo header__logo" href="#"
+					><img
+						class="logo__img"
+						src="./icons/california-icon.svg"
+						width="170"
+						height="21"
+						alt="Логотип California"
+					/>
+				</a>
+				<nav
+					class="menu header__menu"
+					id="header__menu"
+					aria-label="Главное меню"
+				>
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="#все продукты">all products</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link arrow" href="#решения">Solutions</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#ещё">About</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#помощь">support</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__controls header__actions">
+					<button class="header__actions-button-1 position">
+						<svg width="24" height="24">
+							<use
+								class="header__actions-icon"
+								href="./icons/sprite.svg#search"
+							></use>
+						</svg>
+					</button>
+					<button class="header__actions-button-2 position">
+						<svg width="40" height="24">
+							<use
+								class="header__actions-icon"
+								href="./icons/sprite.svg#cart"
+							></use>
+						</svg>
+					</button>
+					<button
+						class="header__burger burger"
+						aria-label="Открыть меню"
+						aria-expanded="false"
+						aria-controls="header__menu"
+					>
+						<svg width="24" height="24">
+							<use
+								class="burger__icon-menu"
+								href="./icons/sprite.svg#menu-burger"
+							></use>
+							<use
+								class="burger__icon-cross"
+								href="./icons/sprite.svg#menu-cross"
+							></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="hero">
+				<div class="container hero__container">
+					<button class="arrow-left">
+						<svg width="14" height="26" aria-label="стрелка влево">
+							<use href="./icons/arrow-left.svg#arrow-left-icon"></use>
+						</svg>
+					</button>
+					<header class="hero__header">
+						<div class="hero__container-text">
+							<h1 class="hero__title">The new phones are here take a look.</h1>
+							<p class="text hero__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.
+							</p>
+							<button class="hero__button">Explore</button>
+						</div>
+
+						<img
+							class="hero__img"
+							src="./images/three-phones.png"
+							alt="Три телефона"
+						/>
+					</header>
+					<button class="arrow-right" id="arrow-right-icon">
+						<svg width="14" height="26" aria-label="стрелка вправо">
+							<use href="./icons/arrow-right.svg#arrow-right-icon"></use>
+						</svg>
+					</button>
+					<footer class="hero__footer">
+						<div class="slider-indicator">
+							<span class="slider-indicator__solid"></span>
+							<span class="slider-indicator__solid"></span>
+							<span class="slider-indicator__solid"></span>
+						</div>
+					</footer>
+				</div>
+			</section>
+			<section class="super-offer">
+				<div class="container">
+					<h2 class="super-offer__title title-big">
+						Shop our latest offers and categories
+					</h2>
+					<p class="super-offer__text text-md">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+						in est dui, aliquam, tempor. Faucibus morbi turpis. Lorem ipsum
+						dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<div class="super-offer__container">
+						<article class="super-offer__card super-offer__card--laptop">
+							<img
+								class="super-offer__img"
+								src="./images/laptop.svg"
+								width="500"
+								height="377"
+								alt="Ноутбук в спящим режиме"
+							/>
+							<div class="super-offer__info">
+								<div class="super-offer__mini-name--laptop text-big">
+									Laptops
+								</div>
+								<h3 class="super-offer__name--laptop title-md">
+									True Laptop Solution
+								</h3>
+							</div>
+						</article>
+						<article class="super-offer__card super-offer__card--witch">
+							<img
+								class="super-offer__img"
+								src="./images/watch.svg"
+								width="381"
+								height="270"
+								alt="часы бежевого цвета"
+							/>
+							<div class="super-offer__info">
+								<div class="super-offer__mini-name--witch text-big">Watch</div>
+								<h3 class="super-offer__name--witch title-md">
+									Not just stylisht
+								</h3>
+							</div>
+						</article>
+						<article class="super-offer__card super-offer__card--phones">
+							<img
+								class="super-offer__img"
+								src="./images/phones.svg"
+								width="296"
+								height="367"
+								alt="два телефона"
+							/>
+							<div class="super-offer__info">
+								<div class="super-offer__mini-name--phones text-big">
+									Phones
+								</div>
+								<h3 class="super-offer__name--phones title-md">
+									Your day to day life
+								</h3>
+							</div>
+						</article>
+						<article class="super-offer__card super-offer__card--tablet">
+							<img
+								class="super-offer__img"
+								src="./images/tablet.svg"
+								width="312"
+								height="425"
+								alt="половина планшета которую держит рука"
+							/>
+							<div class="super-offer__info">
+								<div class="super-offer__mini-name--tablet text-big">
+									Tablet
+								</div>
+								<h3 class="super-offer__name--tablet title-md">
+									Empower your work
+								</h3>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
